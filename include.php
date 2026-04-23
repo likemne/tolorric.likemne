@@ -5,6 +5,7 @@ use Bitrix\Main\Loader;
 Loader::registerAutoLoadClasses(
     'tolorric.likemne',
     [
-        'Tolorric\\Likemne\\NoteTable' => 'lib/NoteTable.php',
+        // Здесь будут классы твоего модуля:
+        // 'Tolorric\Likemne\NoteTable' => 'lib/NoteTable.php',
     ]
 );
